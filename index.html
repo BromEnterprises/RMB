@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togaf</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fcdfbd;
+        }
+        .header {
+            background-color: #e00b5b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 200px; /* Tamaño fijo para todas las imágenes */
+            height: 200px; /* Tamaño fijo para todas las imágenes */
+            border-radius: 50%; /* Bordes completamente redondos */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+        }
+        .menu {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .menu button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #ff0d51;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu button:hover {
+            background-color: #ff0d51;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Togaf</h1>
+    </div>
+
+    <!-- Menú de "Next Page" -->
+    <div class="menu">
+        <button>Next Page</button>
+        <button>Next Page</button>
+        <button>Next Page</button>
+    </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- Primer elemento -->
+        <div class="grid-item">
+            <img src="image/image1.jpg" alt="Imagen 1" class="img-fluid">
+            <p>Jesús Mercado</p>
+        </div>
+
+        <!-- Segundo elemento -->
+        <div class="grid-item">
+            <img src="image/imagen2.jpg" alt="Imagen 2" class="img-fluid">
+            <p>Adayr Blancas</p> <!-- Nombre cambiado a "Adayr" -->
+        </div>
+
+        <!-- Tercer elemento -->
+        <div class="grid-item">
+            <img src="image/image3.jpg" alt="Imagen 3" class="img-fluid">
+            <p>Johann Rayas</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
