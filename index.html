@@ -16,6 +16,10 @@
             padding: 20px;
             text-align: center;
         }
+        .header2 {
+            padding: 20px;
+            text-align: center;
+        }
         .grid-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -57,30 +61,28 @@
         <h1>Togaf</h1>
     </div>
 
-    <!-- Menú de "Next Page" -->
-    <div class="menu">
-        <button>Next Page</button>
-        <button>Next Page</button>
-        <button>Next Page</button>
+    <!-- Header -->
+    <div class="header2">
+        <h3>Equipo conformado por:</h3>  
     </div>
 
     <!-- Grid Container -->
     <div class="grid-container">
         <!-- Primer elemento -->
         <div class="grid-item">
-            <img src="image/image1.jpg" alt="Imagen 1" class="img-fluid">
+            <img src="img/imagen1.jpeg" alt="Imagen 1" class="img-fluid">
             <p>Jesús Mercado</p>
         </div>
 
         <!-- Segundo elemento -->
         <div class="grid-item">
-            <img src="image/imagen2.jpg" alt="Imagen 2" class="img-fluid">
+            <img src="img/imagen2.jpg" alt="Imagen 2" class="img-fluid">
             <p>Adayr Blancas</p> <!-- Nombre cambiado a "Adayr" -->
         </div>
 
         <!-- Tercer elemento -->
         <div class="grid-item">
-            <img src="image/image3.jpg" alt="Imagen 3" class="img-fluid">
+            <img src="img/image3.jpg" alt="Imagen 3" class="img-fluid">
             <p>Johann Rayas</p>
         </div>
     </div>
@@ -90,4 +92,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+<footer>
+
+    <!-- Menú de "Next Page" -->
+    <div class="menu">
+        <button>Next Page</button>
+        <button>Next Page</button>
+        <button type="button" onclick="location.href = 'pagina1.html'"> 
+            Pagina Siguiente
+        </button>
+    </div>
+
+</footer>
+
 </html>
