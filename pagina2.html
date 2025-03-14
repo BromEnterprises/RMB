@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGAF</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fcdfbd;
+        }
+        .header {
+            background-color: #e00b5b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 200px; /* Tamaño fijo para todas las imágenes 200px */
+            height: 200px; /* Tamaño fijo para todas las imágenes 200px */
+           /* border-radius: 50%;  Bordes completamente redondos */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+        }
+        .menu {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .menu button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #ff0d51;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu button:hover {
+            background-color: #ff0d51;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Togaf</h1>
+    </div>
+
+    <div class="container py-4 ">
+        <div class="row">
+            <p class="fw-bold"> 3-Beneficios de usar el marco TOGAF</p>
+            <p>TOGAF obtiene la calificación más alta en tres características completas para la creación de arquitectura organizacional; Concepciones, moldeo y procedimiento.  En las concepciones, TOGAF ofrece una gobernanza y una fuente adecuadas más que la otra mediante la aplicación de un prototipo detallado para ellos.
+                Gracias a eso cuenta con beneficios como:</p>
+                
+            <div class=" col-md-6 py-4 grid-container" > - La flexibilidad y el código abierto.</div>
+          <div class="grid-item "> <img src="img/beneficio1.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4 grid-container"> - Aportar una arquitectura empresarial coherente, basada en los requisitos de las partes interesadas, y aportar cierta consideración.</div>
+          <div class="grid-item "> <img src="img/beneficio2.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4 grid-container"> - Desempeña un papel importante para aliviar y disminuir el riesgo en el desarrollo de la arquitectura.</div>
+          <div class="grid-item"> <img src="img/beneficio3.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4 grid-container"> - Permitir a los usuarios desarrollar un sistema abierto y basado en soluciones para superar los problemas comerciales y las necesidades de la empresa.</div>
+          <div class="grid-item"> <img src="img/beneficio4.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4 grid-container"> - Trae consigo beneficios para reducir los costos operativos y mejorar la congruencia entre los negocios de recursos humanos.</div>
+          <div class="grid-item"> <img src="img/beneficio5.png" class="img-fluid"></div>
+  
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+
+    <!-- Menú de "Next Page" -->
+    <div class="menu">
+        <button type="button" onclick="location.href = 'pagina1.html'"> 
+        Pagina Anterior
+        </button>
+
+        <button type="button" onclick="location.href = 'pagina3.html'"> 
+        Pagina Siguiente
+        </button>
+        
+    </div>
+
+</footer>
+
+</html>

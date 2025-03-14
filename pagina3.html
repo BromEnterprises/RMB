@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGAF</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fcdfbd;
+        }
+        .header {
+            background-color: #e00b5b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 200px; /* Tamaño fijo para todas las imágenes */
+            height: 200px; /* Tamaño fijo para todas las imágenes */
+            border-radius: 50%; /* Bordes completamente redondos */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+        }
+        .menu {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .menu button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #ff0d51;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu button:hover {
+            background-color: #ff0d51;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Togaf</h1>
+    </div>
+
+    <div class="container py-4 ">
+        <div class="row">
+            <p class="fw-bold"> 4-Componentes principales de TOGAF</p>
+            <p>TOGAF es una metodología de gran nivel para planificar con cuatro etapas: Negocio, Aplicación, Datos y Tecnología.
+            Cuenta con 8 etapas con el enfoque del marco TOGAF de la siguiente manera:</p>
+        
+            <div class="col-md-6 py-4"> Fase Preliminar: Marco y Principios: Esta fase explica la preparación de la gestión hospitalaria con el objetivo de asegurar el compromiso de apoyar la implementación de la Gobernanza de TI.</div>
+          <div class="grid-item"> <img src="img/fasep.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase A: Visión de la arquitectura: en esta fase se explican los compromisos de gestión de las actividades de validación relacionados con los principios, objetivos y soporte del negocio. En esta etapa también se adoptan las necesidades de gestión relacionadas con la arquitectura, el alcance y las limitaciones de la empresa.</div>
+          <div class="grid-item"> <img src="img/fasea.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase B: Arquitectura de negocio: en esta etapa se describe el plan de negocio de la empresa relacionado con la arquitectura que se adapta al plan de negocio y se explica previamente el estado actual de la arquitectura y la tecnología de soporte.</div>
+          <div class="grid-item"> <img src="img/faseb.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase C: Arquitecturas de Sistemas de Información: en esta fase la dirección explica la arquitectura relacionada con los datos y las aplicaciones que soportan los procesos de negocio de la empresa. Esta arquitectura también explica todos los aspectos relacionados con la arquitectura de aplicaciones y la arquitectura de datos.</div>
+          <div class="grid-item"> <img src="img/fasec.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase D: Arquitectura tecnológica: en esta etapa se explica la arquitectura tecnológica desarrollada de acuerdo con las necesidades actuales y los planes de desarrollo futuros.</div>
+          <div class="grid-item"> <img src="img/fased.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase E: Oportunidades y Soluciones: esta fase describe las actividades de evaluación del costo de los beneficios, evaluación, medición de los resultados de los logros. En esta etapa también se explica la preparación de una estrategia de migración al nuevo sistema.</div>
+          <div class="grid-item"> <img src="img/fasee.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase F: Planificación de la migración: en esta etapa se explican las actividades de migración del sistema, determinando en el paso inicial la escala de prioridades en función del nivel de importancia de la sección.</div>
+          <div class="grid-item"> <img src="img/fasef.png" class="img-fluid"></div>
+
+          <div class="col-md-6 py-4"> Fase G: Gobernanza de la implementación: en esta etapa se explican los detalles de la implementación de la gobernanza, como los contratos arquitectónicos, las recomendaciones para cada proceso y otros.</div>
+          <div class="grid-item"> <img src="img/faseg.png" class="img-fluid"></div>
+
+            
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+
+    <!-- Menú de "Next Page" -->
+    <div class="menu py-4">
+        <button type="button" onclick="location.href = 'pagina2.html'"> 
+        Pagina Anterior
+        </button>
+
+        <button type="button" onclick="location.href = 'referencias.html'"> 
+        Pagina Siguiente
+        </button>
+        
+    </div>
+
+</footer>
+
+</html>
